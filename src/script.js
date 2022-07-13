@@ -1,7 +1,7 @@
 let number = parseFloat(0);
 console.log("Hello, World");
 (function() {
-    spanOne.innerHTML = ' <h1> Pense em um numero de 0 a 100 e guarde na sua memoria</h1> <h2>Este Algoritimo e capaz de extrair este numero de você!!</h2> <h3>ACREDITE !!</h3> <h3> Após pensar no numero clique em iniciar ↓</h3> ';
+    spanOne.innerHTML = ' <h1> Pense em um numero de 0 a 100 é guarde na sua memoria</h1> <h2>Este Algoritimo e capaz de extrair este numero de você!!</h2> <h3>ACREDITE !!</h3> <h3> Após pensar no numero clique em iniciar ↓</h3> ';
     btn.innerHTML = '<button onclick=" init()">Iniciar</button>';
 })();
 
