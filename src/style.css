@@ -1,0 +1,85 @@
+* {
+    background-color: black;
+    margin: 15px;
+    color: #FFF;
+}
+
+button:active {
+    background-color: #FFF;
+    color: black;
+}
+
+button:hover {
+    background-color: #FFF;
+    color: black;
+    transition: 4s;
+}
+
+
+/* *********** Class *********** */
+
+.container {
+    text-align: center;
+    max-width: 720px;
+    max-height: 1024px;
+}
+
+.btn {
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.yes:hover {
+    background-color: green;
+    transition: 2s;
+}
+
+.not:hover {
+    background-color: red;
+    transition: 2s;
+}
+
+.yes:active {
+    background-color: green;
+}
+
+.not:active {
+    background-color: red;
+}
+
+
+/* *********** TAG *********** */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+button {
+    border: 2px solid #FFF;
+    min-height: 50px;
+    min-width: 120px;
+    font-weight: 800;
+    font-size: 15px;
+    text-transform: uppercase;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+/* *********** alt *********** */
+
+img[alt=cartao] {
+    width: 100%;
+}
