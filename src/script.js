@@ -130,7 +130,7 @@ function result() {
     btNot.innerHTML = '  '
     btnGo.innerHTML = '  '
     spanImg.innerHTML = '  '
-    spanOne.innerHTML = ' <span> Seu numero é o: <br> ↓ <br> ' + number + '</span> ';
+    spanOne.innerHTML = ' <span> Seu numero é o: ↓ <div class="result">' + number + '</div> </span> ';
 
 }
 
